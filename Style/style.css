@@ -4,15 +4,22 @@
 }
 body{
     font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .header-bg {
     background-image: url(/image/Banner\ Image.png);
-    width: 80%;
-    height: 450px;
+    width: 90%;
+    height: 572px;
     margin: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 0;
+    background-position: center;
+}
+.bg-overlay {
+    width: 100%;
+    height: 572px;
+    background-color: #06060687;
+    border-radius: 5px;
 }
 .text {
     color: #fff;
@@ -113,6 +120,10 @@ body{
 }
 .welcome-section {
     padding: 10px 0px 0px 115px;
+    width: 143%;
+    height: 530px;
+    background-color: #000000a1;
+    border-radius: 8px;
 }
 .welcome-section a {
     text-decoration: none;
@@ -136,10 +147,16 @@ body{
 .content-box {
     width: 1200px;
     height: 262px;
-    background-color: gray;
     margin: 0px auto;
     border-radius: 5px;
     padding-top: 98px;
+    background-color: #d3cccc5e;
+}
+.content-box span {
+    color: #f00;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Inter';
 }
 .content-box h2 {
     padding-bottom: 8px;
@@ -414,4 +431,62 @@ body{
     color: #fff;
     font-size: 12px;
     font-weight: 600;
+}
+.footer-section{
+    width: 100%;
+    height: 550px;
+    background-color: #060606;
+    color: #fff;
+}
+.up-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-part p {
+    width: 250px;
+    padding: 90px 0px 0px 90px;
+    line-height: 30px;
+}
+.right-part {
+    margin-right: 150px;
+    margin-top: 90px;
+}
+.img-1 {
+    display: flex;
+    align-items: center;
+}
+.img-1 img {
+    margin-right: 10px;
+}
+.img-2 {
+    display: flex;
+    align-items: center;
+}
+.img-2 img {
+    margin-right: 13px;
+    margin-top: 10px;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.grid-line{
+    width: 1200px;
+    margin: 0 auto;
+}
+.grid-line hr {
+    margin-top: 30px;
+    color: #070707;
+    background-color: #615a5af5;
+}
+.img {
+    margin-right: 30px;
+}
+.down-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
 }
